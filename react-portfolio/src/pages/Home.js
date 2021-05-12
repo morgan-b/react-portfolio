@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Row, Col } from "../components/Project";
+import { Container, Row, Col,Card } from "../components/Project";
 import bioImg from "../assets/biopicsquare.png";
 import { Link } from "react-router-dom";
 
@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 const Home = () => {
   return (
     <Container>
-      <div className="card">
+ <Card>
         <Row>
           <Col size="md-12">
             <div className="card-header text-center">
@@ -39,14 +39,14 @@ const Home = () => {
           </Col>
           </Row>
           <Link
-                className="btn btn-light"
+                className="btn btn-outline-secondary"
                 to="/portfolio"
               >
        
                 SEE MY WORK
               </Link>
        
-      </div>
+              </Card>
     </Container>
   );
 };
