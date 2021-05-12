@@ -19,10 +19,20 @@ export function Col({ size, children }) {
     <div
       className={size
         .split(" ")
-        .map(size => "col-" + size)
+        .map((size) => "col-" + size)
         .join(" ")}
     >
       {children}
     </div>
+  );
+}
+
+export function Card({children}) {
+  return (
+    <div className="card">
+        {children}
+ 
+</div>
+   
   );
 }

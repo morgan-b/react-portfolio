@@ -3,12 +3,14 @@ import { Link } from "react-router-dom";
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fab } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import resume from "../assets/Morgan_Bailey_Resume.pdf";
+
 library.add(fab);
 
 // Depending on the current path, this component sets the "active" class on the appropriate navigation link item
 function Navbar() {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light">
+    <ul className="navbar navbar-expand-lg navbar-light bg-light">
       <Link className="navbar-brand" to="/">
         Morgan Bailey
       </Link>
@@ -38,18 +40,12 @@ function Navbar() {
               Contact
             </Link>
           </li>
-          <li className="nav-item">
-            <Link
-              to="/resume"
-              className={
-                window.location.pathname === "/resume"
-                  ? "nav-link active"
-                  : "nav-link"
-              }
+          <a className="nav-item nav-link"
+         href={ resume } download
             >
               Resumé
-            </Link>
-          </li>
+     
+          </a>
           <a
           
               className="nav-item nav-link"
@@ -70,7 +66,7 @@ function Navbar() {
             </a>
         </ul>
       </div>
-    </nav>
+    </ul>
   );
 }
 
