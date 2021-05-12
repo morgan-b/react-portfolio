@@ -1,5 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "../components/Project";
+import bioImg from "../assets/biopicsquare.png"
 // import CreatePostForm from "../components/CreatePostForm";
 // import PostsList from "../components/PostsList";
 
@@ -7,19 +8,27 @@ const Home = () => {
   return (
     <Container>
       <div className="card">
-        <Col size="md-8">
+      <Row>
+      <Col size="md-12">
+      <div className="card-header text-center" id="homeHeader">
+            HI, I'M MORGAN
+          </div>
+          </Col>
+        <Col size="md-4">
+         
           <img
             className="card-img"
-            src="../assets/biopicsquare.png"
+            src={bioImg}
             alt="bio"
 
           />
+          
         </Col>
 
+
         <Col size="md-8">
-          <div className="card-title" id="homeHeader">
-            HI, I'M MORGAN
-          </div>
+       
+          <div class="card-body">
           <p className="card-text" id="homeSubHeader">
             product manager, performance marketer{" "}
           </p>
@@ -31,6 +40,7 @@ const Home = () => {
             my background is in developing tech-driven solutions for performance
             marketers.
           </p>
+        
           <button
             onclick="location.href = 'portfolio.html';"
             type="button"
@@ -38,7 +48,9 @@ const Home = () => {
           >
             SEE MY WORK
           </button>
+          </div>
         </Col>
+        </Row>
       </div>
     </Container>
   );
