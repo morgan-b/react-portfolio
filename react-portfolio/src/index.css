@@ -1,9 +1,31 @@
 .card{
-  margin: 10%;
+  margin: 5%;
 };
 
 .navbar-brand{
   margin: 10%;
 };
 
+.footer{
+  display: flex; 
+  margin-top:auto;
 
+
+  text-align: center; 
+}
+
+.card-body{
+  margin-top: 25%;
+  margin-bottom: 25%;
+
+}
+
+
+
+
+
+.container{
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}

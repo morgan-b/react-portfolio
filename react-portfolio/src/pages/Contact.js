@@ -1,9 +1,11 @@
 import React from "react";
 import { Container, Row, Col, Card } from "../components/Project";
 import mabIMG from "../assets/mab.png";
+import Footer from "../components/Footer";
 
 const Contact = () => {
     return(
+        <body>
   <Container>
        <Card>
     <Row>
@@ -13,18 +15,16 @@ const Contact = () => {
             Contact Me
           </div>
           </Col>
-          <Col size="md-2">
-            <img className="card-img" src={mabIMG} alt="bio" />
-          </Col>
-          <Col size="md-10">
+       
+          <Col size="md-12">
           <div className="card-body">
 
-          <p className="blockquote" id="homeSubHeader">
+          <p className="blockquote text-center" id="homeSubHeader">
             Email:
             <a href="mailto:mabailey079@gmail.com"> mabailey079@gmail.com</a>
           </p>
 
-          <p className="blockquote" id="homeSubHeader">
+          <p className="blockquote text-center" id="homeSubHeader">
             Phone: (610)-724-6633
           </p>
           </div>
@@ -34,6 +34,8 @@ const Contact = () => {
     </Row>
     </Card>
   </Container>
+  <Footer></Footer>
+  </body>
   )
 };
 export default Contact;

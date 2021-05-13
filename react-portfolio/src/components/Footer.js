@@ -1,11 +1,15 @@
 
 import React from "react";
-import "./style.css";
+
 function Footer() {
   return (
-    <footer className="footer">
-      <span>Morgan Bailey { new Date().getFullYear() }</span>
+
+    <footer className="footer py-3 bg-light">
+
+      <div className="text-center">Morgan Bailey { new Date().getFullYear() }</div>
+
     </footer>
+
   );
 }
 export default Footer;

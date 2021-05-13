@@ -2,10 +2,12 @@ import React from "react";
 import { Container, Row, Col,Card } from "../components/Project";
 import bioImg from "../assets/biopicsquare.png";
 import { Link } from "react-router-dom";
+import  Footer  from "../components/Footer";
 
 
 const Home = () => {
   return (
+      <body>
     <Container>
  <Card>
         <Row>
@@ -14,6 +16,7 @@ const Home = () => {
               HI, I'M MORGAN
             </div>
           </Col>
+
           <Col size="md-6">
             <img className="card-img" src={bioImg} alt="bio" />
           </Col>
@@ -37,6 +40,7 @@ const Home = () => {
             </div>
             
           </Col>
+
           </Row>
           <Link
                 className="btn btn-outline-secondary"
@@ -47,7 +51,10 @@ const Home = () => {
               </Link>
        
               </Card>
+              
     </Container>
+ <Footer></Footer>
+ </body>
   );
 };
 

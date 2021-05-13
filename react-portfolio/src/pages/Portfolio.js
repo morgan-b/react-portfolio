@@ -3,9 +3,11 @@ import foodImg from "../assets/foodist.png";
 import workVibe from "../assets/workvibe.png";
 import vidInt from "../assets/VideoIntel.png";
 import wrkDay from "../assets/calendar.png";
+import Footer from "../components/Footer";
 
 const Portfolio = () => {
   return (
+      <body>
     <Container>
       
       <Card>
@@ -149,6 +151,8 @@ const Portfolio = () => {
         </a>
       </Card>
     </Container>
+     <Footer></Footer>
+     </body>
   );
 };
 export default Portfolio;
