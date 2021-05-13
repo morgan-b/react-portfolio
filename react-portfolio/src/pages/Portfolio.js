@@ -7,7 +7,7 @@ import Footer from "../components/Footer";
 
 const Portfolio = () => {
   return (
-      <body>
+      <div>
     <Container>
       
       <Card>
@@ -28,7 +28,7 @@ const Portfolio = () => {
           </Col>
         </Row>
         <a
-          class="btn btn-outline-secondary"
+          className="btn btn-outline-secondary"
           href="https://stevegekas.github.io/FoodApp/"
           target="_blank"
           rel="noreferrer"
@@ -36,7 +36,7 @@ const Portfolio = () => {
           Live App
         </a>
         <a
-          class="btn btn-outline-secondary"
+          className="btn btn-outline-secondary"
           href="https://github.com/morgan-b/FoodApp.git"
           target="_blank"
           rel="noreferrer"
@@ -66,7 +66,7 @@ const Portfolio = () => {
           </Col>
         </Row>
         <a
-          class="btn btn-outline-secondary"
+          className="btn btn-outline-secondary"
           href="https://www.figma.com/proto/gxv7CSSNL0N3zEY8izq3Zu/Video-Intelligence?node-id=2314%3A0&scaling=scale-down"
           target="_blank"
           rel="noreferrer"
@@ -96,7 +96,7 @@ const Portfolio = () => {
           </Col>
         </Row>
         <a
-          class="btn btn-outline-secondary"
+          className="btn btn-outline-secondary"
           href="https://work-vibe.herokuapp.com/"
           target="_blank"
           rel="noreferrer"
@@ -105,7 +105,7 @@ const Portfolio = () => {
           Live App
         </a>
         <a
-          class="btn btn-outline-secondary"
+          className="btn btn-outline-secondary"
           href="https://github.com/burtk33/work-vibe"
           target="_blank"
           rel="noreferrer"
@@ -134,7 +134,7 @@ const Portfolio = () => {
           </Col>
         </Row>
         <a
-          class="btn btn-outline-secondary"
+          className="btn btn-outline-secondary"
           href="https://morgan-b.github.io/calendar-planner/"
           target="_blank"
           rel="noreferrer"
@@ -142,7 +142,7 @@ const Portfolio = () => {
           Live App
         </a>
         <a
-          class="btn btn-outline-secondary"
+          className="btn btn-outline-secondary"
           href="https://github.com/morgan-b/calendar-planner.git"
           target="_blank"
           rel="noreferrer"
@@ -152,7 +152,7 @@ const Portfolio = () => {
       </Card>
     </Container>
      <Footer></Footer>
-     </body>
+     </div>
   );
 };
 export default Portfolio;

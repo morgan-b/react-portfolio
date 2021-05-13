@@ -7,7 +7,7 @@ import  Footer  from "../components/Footer";
 
 const Home = () => {
   return (
-      <body>
+      <div>
     <Container>
  <Card>
         <Row>
@@ -52,7 +52,7 @@ const Home = () => {
               
     </Container>
  <Footer></Footer>
- </body>
+ </div>
   );
 };
 

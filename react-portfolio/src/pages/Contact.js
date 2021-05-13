@@ -1,11 +1,10 @@
 import React from "react";
 import { Container, Row, Col, Card } from "../components/Project";
-import mabIMG from "../assets/mab.png";
 import Footer from "../components/Footer";
 
 const Contact = () => {
     return(
-        <body>
+        <div>
   <Container>
        <Card>
     <Row>
@@ -35,7 +34,7 @@ const Contact = () => {
     </Card>
   </Container>
   <Footer></Footer>
-  </body>
+  </div>
   )
 };
 export default Contact;
