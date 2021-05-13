@@ -11,12 +11,7 @@ const Home = () => {
     <Container>
  <Card>
         <Row>
-          <Col size="md-12">
-            <div className="card-header text-center">
-              HI, I'M MORGAN
-            </div>
-          </Col>
-
+       
           <Col size="md-6">
             <img className="card-img" src={bioImg} alt="bio" />
           </Col>
@@ -25,6 +20,9 @@ const Home = () => {
           
             <div className="card-body">
             <Row>
+            <div className="heading">
+              HI, I'M MORGAN
+            </div>
             <div className="blockquote">
                 product manager, performance marketer & web developer
 
