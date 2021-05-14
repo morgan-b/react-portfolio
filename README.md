@@ -6,7 +6,7 @@ This website is a personal portfolio for Morgan Bailey. This task was to create 
 
 
 
-(See here for the live website)[https://morgan-b.github.io/mb_responsiveportfolio/]
+[See here for the live website](https://morgan-b.github.io/react-portfolio/)
 
 ## About Page
 
