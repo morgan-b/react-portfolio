@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.80f39c25.chunk.css",
+    "main.js": "/react-portfolio/static/js/main.de66112d.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.de66112d.chunk.js.map",
+    "runtime-main.js": "/react-portfolio/static/js/runtime-main.fed61080.js",
+    "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.fed61080.js.map",
+    "static/css/2.4c97ca4f.chunk.css": "/react-portfolio/static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.bd36056e.chunk.js": "/react-portfolio/static/js/2.bd36056e.chunk.js",
+    "static/js/2.bd36056e.chunk.js.map": "/react-portfolio/static/js/2.bd36056e.chunk.js.map",
+    "index.html": "/react-portfolio/index.html",
+    "static/css/2.4c97ca4f.chunk.css.map": "/react-portfolio/static/css/2.4c97ca4f.chunk.css.map",
+    "static/css/main.80f39c25.chunk.css.map": "/react-portfolio/static/css/main.80f39c25.chunk.css.map",
+    "static/js/2.bd36056e.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.bd36056e.chunk.js.LICENSE.txt",
+    "static/media/Morgan_Bailey_Resume.fee17dae.pdf": "/react-portfolio/static/media/Morgan_Bailey_Resume.fee17dae.pdf",
+    "static/media/VideoIntel.a1239fcd.png": "/react-portfolio/static/media/VideoIntel.a1239fcd.png",
+    "static/media/biopicsquare.3e22311e.png": "/react-portfolio/static/media/biopicsquare.3e22311e.png",
+    "static/media/calendar.484c6e9d.png": "/react-portfolio/static/media/calendar.484c6e9d.png",
+    "static/media/foodist.39f71cd1.png": "/react-portfolio/static/media/foodist.39f71cd1.png",
+    "static/media/workvibe.4a4d1f1f.png": "/react-portfolio/static/media/workvibe.4a4d1f1f.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fed61080.js",
+    "static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.bd36056e.chunk.js",
+    "static/css/main.80f39c25.chunk.css",
+    "static/js/main.de66112d.chunk.js"
+  ]
+}
